@@ -26,5 +26,6 @@ export const en = {
     privacyPolicy: 'Privacy Policy',
     refundPolicy: 'Refund Policy',
     termsOfService: 'Terms of Service',
+    termsOfUse: 'Terms of Use',
   },
 } as const;

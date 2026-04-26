@@ -32,21 +32,11 @@ export const PORTAL_FOOTER_NAV: NavItem[] = [
   {label: STRINGS.nav.about, href: '/about', external: false},
   {label: STRINGS.nav.journal, href: '/journal', external: false},
   {label: STRINGS.nav.contact, href: '/contact', external: false},
-  {
-    label: STRINGS.nav.privacyPolicy,
-    href: `${SHOP_URL}/policies/privacy-policy`,
-    external: true,
-  },
-  {
-    label: STRINGS.nav.refundPolicy,
-    href: `${SHOP_URL}/policies/refund-policy`,
-    external: true,
-  },
-  {
-    label: STRINGS.nav.termsOfService,
-    href: `${SHOP_URL}/policies/terms-of-service`,
-    external: true,
-  },
+  // Portal carries its own marketing-site Privacy + Terms — distinct from the
+  // shop's purchase-scoped policies (shipping, refunds, payment data) which
+  // are managed in Shopify Admin and live on shop.furtherjoy.com/policies/*.
+  {label: STRINGS.nav.privacyPolicy, href: '/privacy', external: false},
+  {label: STRINGS.nav.termsOfUse, href: '/terms', external: false},
 ];
 
 // ── Shop perspective (shop.furtherjoy.com) ─────────────────────────────────
