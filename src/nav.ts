@@ -20,6 +20,11 @@ export type NavItem = {
   external: boolean;
 };
 
+export type NavSection = {
+  title: string;
+  items: NavItem[];
+};
+
 // ── Portal perspective (furtherjoy.com) ────────────────────────────────────
 
 export const PORTAL_HEADER_NAV: NavItem[] = [
@@ -28,16 +33,47 @@ export const PORTAL_HEADER_NAV: NavItem[] = [
   {label: STRINGS.nav.journal, href: '/journal', external: false},
 ];
 
-export const PORTAL_FOOTER_NAV: NavItem[] = [
-  {label: STRINGS.nav.about, href: '/about', external: false},
-  {label: STRINGS.nav.journal, href: '/journal', external: false},
-  {label: STRINGS.nav.contact, href: '/contact', external: false},
-  // Portal carries its own marketing-site Privacy + Terms — distinct from the
-  // shop's purchase-scoped policies (shipping, refunds, payment data) which
-  // are managed in Shopify Admin and live on shop.furtherjoy.com/policies/*.
-  {label: STRINGS.nav.privacyPolicy, href: '/privacy', external: false},
-  {label: STRINGS.nav.termsOfUse, href: '/terms', external: false},
+export const PORTAL_FOOTER_SECTIONS: NavSection[] = [
+  {
+    title: STRINGS.footer.sections.products,
+    items: [
+      {label: STRINGS.nav.shop, href: SHOP_URL, external: true},
+      {
+        label: STRINGS.nav.aiPrinter,
+        href: '/products/ai-printer',
+        external: false,
+      },
+    ],
+  },
+  {
+    title: STRINGS.footer.sections.company,
+    items: [
+      {label: STRINGS.nav.about, href: '/about', external: false},
+      {label: STRINGS.nav.journal, href: '/journal', external: false},
+    ],
+  },
+  {
+    title: STRINGS.footer.sections.support,
+    items: [
+      {label: STRINGS.nav.app, href: '/app', external: false},
+      {label: STRINGS.nav.contact, href: '/contact', external: false},
+    ],
+  },
+  {
+    title: STRINGS.footer.sections.legal,
+    // Portal carries its own marketing-site Privacy + Terms — distinct from the
+    // shop's purchase-scoped policies (shipping, refunds, payment data) which
+    // are managed in Shopify Admin and live on shop.furtherjoy.com/policies/*.
+    items: [
+      {label: STRINGS.nav.privacyPolicy, href: '/privacy', external: false},
+      {label: STRINGS.nav.termsOfUse, href: '/terms', external: false},
+    ],
+  },
 ];
+
+export const PORTAL_FOOTER_NAV: NavItem[] = PORTAL_FOOTER_SECTIONS.flatMap(
+  (section) => section.items,
+);
 
 // ── Shop perspective (shop.furtherjoy.com) ─────────────────────────────────
 

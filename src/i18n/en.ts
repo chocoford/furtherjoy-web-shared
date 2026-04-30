@@ -20,6 +20,8 @@ export const en = {
   },
   nav: {
     shop: 'Shop',
+    aiPrinter: 'AIPrinter',
+    app: 'FurtherJoy App',
     about: 'About',
     journal: 'Journal',
     contact: 'Contact',
@@ -27,5 +29,13 @@ export const en = {
     refundPolicy: 'Refund Policy',
     termsOfService: 'Terms of Service',
     termsOfUse: 'Terms of Use',
+  },
+  footer: {
+    sections: {
+      products: 'Shop and Products',
+      company: 'Company',
+      support: 'Support',
+      legal: 'Legal',
+    },
   },
 } as const;
