@@ -1,6 +1,6 @@
 {
   "name": "@furtherjoy/web-shared",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Shared brand data, nav config, and i18n strings for FurtherJoy web properties (portal + shop).",
   "type": "module",
   "main": "./dist/index.js",
