@@ -83,23 +83,65 @@ export const SHOP_HEADER_NAV: NavItem[] = [
   {label: STRINGS.nav.journal, href: `${PORTAL_URL}/journal`, external: true},
 ];
 
-export const SHOP_FOOTER_NAV: NavItem[] = [
-  {label: STRINGS.nav.about, href: `${PORTAL_URL}/about`, external: true},
-  {label: STRINGS.nav.journal, href: `${PORTAL_URL}/journal`, external: true},
-  {label: STRINGS.nav.contact, href: `${PORTAL_URL}/contact`, external: true},
+export const SHOP_FOOTER_SECTIONS: NavSection[] = [
   {
-    label: STRINGS.nav.privacyPolicy,
-    href: '/policies/privacy-policy',
-    external: false,
+    title: STRINGS.footer.sections.products,
+    items: [
+      {label: STRINGS.nav.shop, href: '/', external: false},
+      {
+        label: STRINGS.nav.aiPrinter,
+        href: '/products/ai-printer',
+        external: false,
+      },
+    ],
   },
   {
-    label: STRINGS.nav.refundPolicy,
-    href: '/policies/refund-policy',
-    external: false,
+    title: STRINGS.footer.sections.company,
+    items: [
+      {label: STRINGS.nav.about, href: `${PORTAL_URL}/about`, external: true},
+      {
+        label: STRINGS.nav.journal,
+        href: `${PORTAL_URL}/journal`,
+        external: true,
+      },
+    ],
   },
   {
-    label: STRINGS.nav.termsOfService,
-    href: '/policies/terms-of-service',
-    external: false,
+    title: STRINGS.footer.sections.support,
+    items: [
+      {label: STRINGS.nav.app, href: `${PORTAL_URL}/app`, external: true},
+      {
+        label: STRINGS.nav.contact,
+        href: `${PORTAL_URL}/contact`,
+        external: true,
+      },
+    ],
+  },
+  {
+    title: STRINGS.footer.sections.legal,
+    // Shop carries Shopify-managed purchase policies (privacy + refund +
+    // terms of service) — distinct from the portal's marketing-site
+    // Privacy Policy + Terms of Use which live at furtherjoy.com/{privacy,terms}.
+    items: [
+      {
+        label: STRINGS.nav.privacyPolicy,
+        href: '/policies/privacy-policy',
+        external: false,
+      },
+      {
+        label: STRINGS.nav.refundPolicy,
+        href: '/policies/refund-policy',
+        external: false,
+      },
+      {
+        label: STRINGS.nav.termsOfService,
+        href: '/policies/terms-of-service',
+        external: false,
+      },
+    ],
   },
 ];
+
+export const SHOP_FOOTER_NAV: NavItem[] = SHOP_FOOTER_SECTIONS.flatMap(
+  (section) => section.items,
+);
