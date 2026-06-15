@@ -30,7 +30,6 @@ export type NavSection = {
 export const PORTAL_HEADER_NAV: NavItem[] = [
   {label: STRINGS.nav.shop, href: SHOP_URL, external: true},
   {label: STRINGS.nav.about, href: '/about', external: false},
-  {label: STRINGS.nav.journal, href: '/journal', external: false},
 ];
 
 export const PORTAL_FOOTER_SECTIONS: NavSection[] = [
@@ -47,10 +46,7 @@ export const PORTAL_FOOTER_SECTIONS: NavSection[] = [
   },
   {
     title: STRINGS.footer.sections.company,
-    items: [
-      {label: STRINGS.nav.about, href: '/about', external: false},
-      {label: STRINGS.nav.journal, href: '/journal', external: false},
-    ],
+    items: [{label: STRINGS.nav.about, href: '/about', external: false}],
   },
   {
     title: STRINGS.footer.sections.support,
@@ -80,7 +76,6 @@ export const PORTAL_FOOTER_NAV: NavItem[] = PORTAL_FOOTER_SECTIONS.flatMap(
 export const SHOP_HEADER_NAV: NavItem[] = [
   {label: STRINGS.nav.shop, href: '/', external: false},
   {label: STRINGS.nav.about, href: `${PORTAL_URL}/about`, external: true},
-  {label: STRINGS.nav.journal, href: `${PORTAL_URL}/journal`, external: true},
 ];
 
 export const SHOP_FOOTER_SECTIONS: NavSection[] = [
@@ -99,11 +94,6 @@ export const SHOP_FOOTER_SECTIONS: NavSection[] = [
     title: STRINGS.footer.sections.company,
     items: [
       {label: STRINGS.nav.about, href: `${PORTAL_URL}/about`, external: true},
-      {
-        label: STRINGS.nav.journal,
-        href: `${PORTAL_URL}/journal`,
-        external: true,
-      },
     ],
   },
   {

@@ -72,7 +72,6 @@ export const zh: typeof en = {
     aiPrinter: 'AIPrinter',
     app: 'FurtherJoy App',
     about: '关于我们',
-    journal: '随笔',
     contact: '联系我们',
     privacyPolicy: '隐私政策',
     refundPolicy: '退款政策',
@@ -294,16 +293,6 @@ export const zh: typeof en = {
         body: 'AIPrinter 全球发货，满 US$60 包邮。',
         button: '购买 AIPrinter',
       },
-    },
-    journal: {
-      metaTitle: '随笔 | FurtherJoy',
-      metaDesc: '关于游戏、设计，以及如何陪伴好奇的小人。',
-      hero: {
-        eyebrow: '随笔',
-        titlePart1: '关于游戏、设计，',
-        titlePart2: '以及如何陪伴好奇的小人。',
-      },
-      comingSoon: '更多内容陆续更新中。',
     },
   },
 };

@@ -74,7 +74,6 @@ export const en = {
     aiPrinter: 'AIPrinter',
     app: 'FurtherJoy App',
     about: 'About',
-    journal: 'Journal',
     contact: 'Contact',
     privacyPolicy: 'Privacy Policy',
     refundPolicy: 'Refund Policy',
@@ -299,16 +298,6 @@ export const en = {
         body: 'AIPrinter ships worldwide with free shipping over US$60.',
         button: 'Shop AIPrinter',
       },
-    },
-    journal: {
-      metaTitle: 'Journal | FurtherJoy',
-      metaDesc: 'Thoughts on play, design, and raising curious humans.',
-      hero: {
-        eyebrow: 'Journal',
-        titlePart1: 'Thoughts on play, design,',
-        titlePart2: 'and raising curious humans.',
-      },
-      comingSoon: 'More stories coming soon.',
     },
   },
 };
