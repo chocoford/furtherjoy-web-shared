@@ -5,7 +5,7 @@
  * 命名空间，tsc 会立刻在 build 时报错。
  *
  * 翻译惯例：
- *  - 品牌名（FurtherJoy / AIPrinter / FurtherJoy App）保留英文原名
+ *  - 品牌名（FurtherJoy / UPal / FurtherJoy App）保留英文原名
  *  - 法律文本标题（隐私政策、服务条款）按 PCPD/CNNIC 习惯翻译
  *  - tagline / slogan 保留品牌人格，不做字面直译
  */
@@ -69,7 +69,7 @@ export const zh: typeof en = {
   },
   nav: {
     shop: '商店',
-    aiPrinter: 'AIPrinter',
+    uPal: 'UPal',
     app: 'FurtherJoy App',
     about: '关于我们',
     contact: '联系我们',
@@ -211,19 +211,19 @@ export const zh: typeof en = {
         closeLabel: '关闭',
       },
     },
-    aiPrinter: {
-      metaTitle: 'AIPrinter | FurtherJoy',
+    uPal: {
+      metaTitle: 'UPal | FurtherJoy',
       metaDesc:
-        'AIPrinter —— 给小朋友的口袋大小热敏打印机。零墨水，无穷创造。',
-      imageAlt: 'FurtherJoy AIPrinter —— 给小朋友的口袋大小热敏打印机',
+        'UPal —— 给小朋友的口袋大小热敏打印机。零墨水，无穷创造。',
+      imageAlt: 'FurtherJoy UPal —— 给小朋友的口袋大小热敏打印机',
       hero: {
         titleStart: '口袋大小的',
         titleHighlight: '创造工厂。',
-        body: 'AIPrinter 把涂鸦、照片、故事变成可以收藏的热敏纸作品。零墨水，无穷创造。',
+        body: 'UPal 把涂鸦、照片、故事变成可以收藏的热敏纸作品。零墨水，无穷创造。',
         exploreFeatures: '查看功能',
       },
       productImageAlt:
-        'FurtherJoy AIPrinter —— 给小朋友的口袋大小热敏打印机，屏幕亮起、前部按键可按',
+        'FurtherJoy UPal —— 给小朋友的口袋大小热敏打印机，屏幕亮起、前部按键可按',
       stats: {
         noInk: '墨盒',
         paper: '热敏纸',
@@ -263,7 +263,7 @@ export const zh: typeof en = {
         },
         s2: {
           title: '一键打印',
-          body: 'AIPrinter 通过蓝牙连接任何手机或平板。点击打印 —— 几秒之内就好。',
+          body: 'UPal 通过蓝牙连接任何手机或平板。点击打印 —— 几秒之内就好。',
         },
         s3: {
           title: '撕下、粘上、分享',
@@ -290,8 +290,8 @@ export const zh: typeof en = {
       },
       cta: {
         title: '准备好认识它了吗？',
-        body: 'AIPrinter 全球发货，满 US$60 包邮。',
-        button: '购买 AIPrinter',
+        body: 'UPal 全球发货，满 US$60 包邮。',
+        button: '购买 UPal',
       },
     },
   },

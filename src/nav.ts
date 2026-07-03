@@ -38,8 +38,8 @@ export const PORTAL_FOOTER_SECTIONS: NavSection[] = [
     items: [
       {label: STRINGS.nav.shop, href: SHOP_URL, external: true},
       {
-        label: STRINGS.nav.aiPrinter,
-        href: '/products/ai-printer',
+        label: STRINGS.nav.uPal,
+        href: '/products/upal',
         external: false,
       },
     ],
@@ -84,8 +84,8 @@ export const SHOP_FOOTER_SECTIONS: NavSection[] = [
     items: [
       {label: STRINGS.nav.shop, href: '/', external: false},
       {
-        label: STRINGS.nav.aiPrinter,
-        href: '/products/ai-printer',
+        label: STRINGS.nav.uPal,
+        href: '/products/upal',
         external: false,
       },
     ],

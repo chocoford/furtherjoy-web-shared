@@ -71,7 +71,7 @@ export const en = {
   },
   nav: {
     shop: 'Shop',
-    aiPrinter: 'AIPrinter',
+    uPal: 'UPal',
     app: 'FurtherJoy App',
     about: 'About',
     contact: 'Contact',
@@ -214,20 +214,20 @@ export const en = {
         closeLabel: 'Close',
       },
     },
-    aiPrinter: {
-      metaTitle: 'AIPrinter | FurtherJoy',
+    uPal: {
+      metaTitle: 'UPal | FurtherJoy',
       metaDesc:
-        'AIPrinter — a playful pocket-sized thermal printer for kids. Zero ink, endless creations.',
+        'UPal — a playful pocket-sized thermal printer for kids. Zero ink, endless creations.',
       imageAlt:
-        'FurtherJoy AIPrinter — pocket-sized thermal printer for kids',
+        'FurtherJoy UPal — pocket-sized thermal printer for kids',
       hero: {
         titleStart: 'A pocket-sized',
         titleHighlight: 'wonder factory.',
-        body: 'AIPrinter turns doodles, photos, and stories into thermal-paper keepsakes. Zero ink, endless creations.',
+        body: 'UPal turns doodles, photos, and stories into thermal-paper keepsakes. Zero ink, endless creations.',
         exploreFeatures: 'Explore features',
       },
       productImageAlt:
-        'FurtherJoy AIPrinter — pocket-sized thermal printer for kids, with screen lit and tactile front buttons',
+        'FurtherJoy UPal — pocket-sized thermal printer for kids, with screen lit and tactile front buttons',
       stats: {
         noInk: 'Ink cartridges',
         paper: 'Thermal paper',
@@ -267,7 +267,7 @@ export const en = {
         },
         s2: {
           title: 'Tap to print',
-          body: 'AIPrinter connects to any phone or tablet over Bluetooth. Hit print — the whole thing takes seconds.',
+          body: 'UPal connects to any phone or tablet over Bluetooth. Hit print — the whole thing takes seconds.',
         },
         s3: {
           title: 'Peel, stick, share',
@@ -295,8 +295,8 @@ export const en = {
       },
       cta: {
         title: 'Ready to meet it?',
-        body: 'AIPrinter ships worldwide with free shipping over US$60.',
-        button: 'Shop AIPrinter',
+        body: 'UPal ships worldwide with free shipping over US$60.',
+        button: 'Shop UPal',
       },
     },
   },
