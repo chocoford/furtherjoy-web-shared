@@ -1,26 +1,11 @@
 {
-  "name": "@furtherjoy/web-shared",
-  "version": "0.1.8",
-  "description": "Shared brand data, nav config, and i18n strings for FurtherJoy web properties (portal + shop).",
+  "name": "furtherjoy-web-shared-source",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Canonical TypeScript source synced into FurtherJoy's website and Shopify repositories.",
   "type": "module",
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
-    }
-  },
-  "files": [
-    "dist",
-    "src"
-  ],
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch",
-    "clean": "rm -rf dist",
-    "prepare": "npm run build"
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "typescript": "^5.5.0"
