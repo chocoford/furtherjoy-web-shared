@@ -212,14 +212,14 @@ export const zh: typeof en = {
       },
     },
     uPal: {
-      metaTitle: 'UPal | FurtherJoy',
+      metaTitle: 'UPal 儿童智能迷你打印机 | FurtherJoy',
       metaDesc:
-        'UPal —— 给小朋友的口袋大小热敏打印机。零墨水，无穷创造。',
-      imageAlt: 'FurtherJoy UPal —— 给小朋友的口袋大小热敏打印机',
+        'UPal 是为 6 岁以上儿童设计的智能迷你热敏打印机：语音生成图片、手机直连打印，还能把创作发送到好友的 UPal，无需墨水。',
+      imageAlt: 'FurtherJoy UPal 儿童智能迷你热敏打印机',
       hero: {
         titleStart: '口袋大小的',
         titleHighlight: '创造工厂。',
-        body: 'UPal 把涂鸦、照片、故事变成可以收藏的热敏纸作品。零墨水，无穷创造。',
+        body: 'UPal 把涂鸦、照片、语音想法和故事变成可以收藏的热敏纸作品。适合 6 岁以上儿童，零墨水，创作方式不设限。',
         exploreFeatures: '查看功能',
       },
       productImageAlt:
@@ -229,46 +229,6 @@ export const zh: typeof en = {
         paper: '热敏纸',
         ages: '适用年龄',
         rechargeable: '充电方式',
-      },
-      features: {
-        eyebrow: '它能做什么',
-        title: '为孩子的创作方式而设计。',
-        f1: {
-          label: '特性 · 01',
-          title: '零墨水，纯惊喜。',
-          body: '热敏打印没有可洒的墨、没有要换的耗材、没有要扔的垃圾。一卷纸，仅此而已。',
-        },
-        f2: {
-          label: '特性 · 02',
-          title: '把涂鸦变成珍藏。',
-          body: '在配套 App 里画一笔、拍一张，或者选一张贴纸模板。轻点打印 —— 看着作品在几秒内滑出来。',
-        },
-        f3: {
-          label: '特性 · 03',
-          title: '为小手而生。',
-          body: '圆润的边角、亲肤的表面、为正在学着握工具的小手而设计的握感。',
-        },
-        f4: {
-          label: '特性 · 04',
-          title: '带它去任何地方。',
-          body: '口袋大小，USB-C 一次充电用一整天，核心创作模式无需联网。',
-        },
-      },
-      howItWorks: {
-        eyebrow: '怎么用',
-        title: '从灵感到打印，三步搞定。',
-        s1: {
-          title: '在 App 里创作',
-          body: '在 FurtherJoy App 里涂鸦、拍照，或者从儿童友好的贴纸和模板库里挑一个。',
-        },
-        s2: {
-          title: '一键打印',
-          body: 'UPal 通过蓝牙连接任何手机或平板。点击打印 —— 几秒之内就好。',
-        },
-        s3: {
-          title: '撕下、粘上、分享',
-          body: '作品打印在热敏贴纸上 —— 撕下贴到本子上、墙上，或者和朋友交换。',
-        },
       },
       specs: {
         eyebrow: '详细参数',
@@ -290,7 +250,6 @@ export const zh: typeof en = {
       },
       cta: {
         title: '准备好认识它了吗？',
-        body: 'UPal 全球发货，满 US$60 包邮。',
         button: '购买 UPal',
       },
     },

@@ -215,15 +215,15 @@ export const en = {
       },
     },
     uPal: {
-      metaTitle: 'UPal | FurtherJoy',
+      metaTitle: 'UPal Smart Mini Printer for Kids | FurtherJoy',
       metaDesc:
-        'UPal — a playful pocket-sized thermal printer for kids. Zero ink, endless creations.',
+        'UPal is a smart mini thermal printer for kids 6+. Turn spoken ideas into pictures, print from the FurtherJoy app, and send creations to a friend’s UPal—no ink.',
       imageAlt:
-        'FurtherJoy UPal — pocket-sized thermal printer for kids',
+        'FurtherJoy UPal smart mini thermal printer for kids',
       hero: {
         titleStart: 'A pocket-sized',
         titleHighlight: 'wonder factory.',
-        body: 'UPal turns doodles, photos, and stories into thermal-paper keepsakes. Zero ink, endless creations.',
+        body: 'UPal turns doodles, photos, spoken ideas, and stories into thermal-paper keepsakes. Made for ages 6+, with zero ink and endless ways to create.',
         exploreFeatures: 'Explore features',
       },
       productImageAlt:
@@ -233,46 +233,6 @@ export const en = {
         paper: 'Thermal paper',
         ages: 'Ages',
         rechargeable: 'Rechargeable',
-      },
-      features: {
-        eyebrow: 'What it does',
-        title: 'Made for the way kids make things.',
-        f1: {
-          label: 'Feature · 01',
-          title: 'Zero ink, all wonder.',
-          body: 'Thermal printing means nothing to spill, nothing to replace, and nothing to toss in a landfill. Rolls of paper, only paper.',
-        },
-        f2: {
-          label: 'Feature · 02',
-          title: 'Turn doodles into keepsakes.',
-          body: 'Draw in the companion app, snap a photo, or pick a sticker template. Tap print — and watch a creation slide out in seconds.',
-        },
-        f3: {
-          label: 'Feature · 03',
-          title: 'Built for small hands.',
-          body: 'Rounded edges, soft-touch finish, and a grip shaped for fingers still learning their way around a tool.',
-        },
-        f4: {
-          label: 'Feature · 04',
-          title: 'Goes everywhere with you.',
-          body: 'Pocket-sized, a full day of battery on a single USB-C charge, and no cloud required for the core creative modes.',
-        },
-      },
-      howItWorks: {
-        eyebrow: 'How it works',
-        title: 'From idea to print in three steps.',
-        s1: {
-          title: 'Create in the app',
-          body: 'Doodle, snap a photo, or pick from a library of kid-safe stickers and templates in the FurtherJoy app.',
-        },
-        s2: {
-          title: 'Tap to print',
-          body: 'UPal connects to any phone or tablet over Bluetooth. Hit print — the whole thing takes seconds.',
-        },
-        s3: {
-          title: 'Peel, stick, share',
-          body: 'Creations come out on thermal sticker paper — peel and stick on notebooks, walls, or trade them with friends.',
-        },
       },
       specs: {
         eyebrow: 'The details',
@@ -295,7 +255,6 @@ export const en = {
       },
       cta: {
         title: 'Ready to meet it?',
-        body: 'UPal ships worldwide with free shipping over US$60.',
         button: 'Shop UPal',
       },
     },
