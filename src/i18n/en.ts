@@ -206,11 +206,13 @@ export const en = {
         privacy: 'App Privacy Notice',
         terms: 'App Terms of Use',
       },
-      iosModal: {
+      downloadModal: {
         title: 'Get the FurtherJoy app',
-        subtitle: 'Scan with your iPhone camera, or tap below.',
-        qrAlt: 'QR code linking to the FurtherJoy app on the App Store',
-        ctaButton: 'View in App Store',
+        subtitle: 'Choose your platform, then scan the QR code with your phone.',
+        iosQrAlt: 'QR code linking to the FurtherJoy app on the App Store',
+        androidQrAlt: 'QR code linking to the FurtherJoy app on Google Play',
+        iosCtaButton: 'View in App Store',
+        androidCtaButton: 'View on Google Play',
         closeLabel: 'Close',
       },
     },

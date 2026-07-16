@@ -203,11 +203,13 @@ export const zh: typeof en = {
         privacy: 'App 隐私声明',
         terms: 'App 使用条款',
       },
-      iosModal: {
+      downloadModal: {
         title: '下载 FurtherJoy App',
-        subtitle: '用 iPhone 相机扫码，或点下方按钮。',
-        qrAlt: '链接到 App Store 上 FurtherJoy 应用的二维码',
-        ctaButton: '到 App Store 查看',
+        subtitle: '选择你的平台，然后用手机扫描二维码。',
+        iosQrAlt: '链接到 App Store 上 FurtherJoy 应用的二维码',
+        androidQrAlt: '链接到 Google Play 上 FurtherJoy 应用的二维码',
+        iosCtaButton: '到 App Store 查看',
+        androidCtaButton: '到 Google Play 查看',
         closeLabel: '关闭',
       },
     },
